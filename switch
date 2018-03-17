@@ -37,3 +37,25 @@ func main() {
 
 	}
 }
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	n := "Bond"
+	switch n {
+	case "MoneyPenny":
+
+		fmt.Println("Miss Money")
+	case "Bond":
+		fmt.Println("James Bond")
+	case "Q":
+		fmt.Println("This is Q")
+
+	}
+}
+
