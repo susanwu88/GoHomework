@@ -59,3 +59,24 @@ func main() {
 	}
 }
 
+//Multiple case
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	n := "Bond"
+	switch n {
+	case "MoneyPenny", "Bond", "Doctor No":
+
+		fmt.Println("Miss Money or Bond or Doctor No")
+	case "M":
+		fmt.Println("James Bond or M")
+	case "Q":
+		fmt.Println("This is Q")
+
+	}
+}
+
