@@ -17,3 +17,23 @@ func main() {
 		fmt.Println("also true, does it print")
 	}
 }
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	switch "Bond" {
+	case "MoneyPenny":
+
+		fmt.Println("Miss Money")
+	case "Bond":
+		fmt.Println("James Bond")
+	case "Q":
+		fmt.Println("This is Q")
+
+	}
+}
