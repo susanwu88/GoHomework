@@ -11,3 +11,6 @@ func main() {
 	x[3] = 42
 	fmt.Println(x)
 }
+
+
+///don't use arrays, use slices
