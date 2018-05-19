@@ -95,3 +95,24 @@ func main() {
 		fmt.Println("should print")
 	}
 }
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	favSport := "boxing"
+	switch favSport {
+
+	case "skiing":
+		fmt.Println("go to the mountains")
+	case "swimming":
+		fmt.Println("go to the pool")
+	case "running":
+		fmt.Println("go to the track")
+	case "boxing":
+		fmt.Println("go to the ring")
+	}
+}
