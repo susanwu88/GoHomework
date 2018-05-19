@@ -12,3 +12,20 @@ func main() {
 	}
 
 }
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	x := "asd"
+	if x == "Moneypenny" {
+		fmt.Println(x)
+	} else if x == "Jane Bond" {
+		fmt.Println("BondJaneBond", x)
+	} else {
+		fmt.Println("neither")
+	}
+}
