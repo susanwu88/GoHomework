@@ -253,4 +253,20 @@ len
 cap
 
 //
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := []int{11, 22, 33, 44, 55, 66}
+	fmt.Println(x)
+
+	y := append(x, 77, 88, 99)
+	fmt.Println(x)
+	fmt.Println(y)
+
+}
+
 
