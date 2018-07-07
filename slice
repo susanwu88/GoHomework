@@ -217,4 +217,14 @@ func main() {
 	fmt.Print(cap(x))
 }
 
+//
+package main
 
+import (
+	"fmt"
+)
+
+func main() {
+	jb := []string{"James", "Bond", "Dry", "Martini"}
+	fmt.Println(jb)
+}
