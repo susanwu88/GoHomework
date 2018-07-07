@@ -246,5 +246,11 @@ func main() {
 	fmt.Println(jm)
 }
 
+//Underlying every slice is an array. A slice is actually a data structure which has three parts: 
 
+a pointer to an array
+len
+cap
+
+//
 
