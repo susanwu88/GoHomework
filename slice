@@ -231,3 +231,20 @@ func main() {
 	fmt.Println(m)
 }
 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	j := []string{"James", "Bond", "Dry", "Martini"}
+	fmt.Println(j)
+	m := []string{"Moneypenny", "Strawberry", "Pie"}
+	fmt.Println(m)
+	jm := [][]string{j, m}
+	fmt.Println(jm)
+}
+
+
+
