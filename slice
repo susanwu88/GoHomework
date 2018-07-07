@@ -225,6 +225,9 @@ import (
 )
 
 func main() {
-	jb := []string{"James", "Bond", "Dry", "Martini"}
-	fmt.Println(jb)
+	j := []string{"James", "Bond", "Dry", "Martini"}
+	fmt.Println(j)
+	m := []string{"Moneypenny", "Strawberry", "Pie"}
+	fmt.Println(m)
 }
+
