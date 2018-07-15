@@ -12,3 +12,17 @@ func main() {
 	}
 	fmt.Printf("%T\n", x)
 }
+//slice
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := []int{11, 22, 33, 44, 55, 66, 77, 88, 99, 110}
+	for i, v := range x {
+		fmt.Println(i, v)
+	}
+	fmt.Printf("%T\n", x)
+}
