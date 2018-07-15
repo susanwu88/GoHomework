@@ -1,0 +1,27 @@
+// Map is a key-value store
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	m := map[string]int{
+		"James":   32,
+		"Miss MP": 60,
+	}
+	fmt.Println(m)
+	fmt.Println(m["James"])
+	fmt.Println(m["Barney"])
+
+	v, ok := m["Barney"]
+	fmt.Println(v)
+	fmt.Println(ok)
+
+	if v, ok := m["Barney"]; ok {
+		fmt.Println("THIS IS THE IF PRINT", v)
+
+	}
+}
