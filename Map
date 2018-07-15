@@ -94,3 +94,39 @@ func main() {
 
 	}
 }
+
+
+// delete and lookup
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	m := map[string]int{
+		"James":   32,
+		"Miss MP": 60,
+	}
+	fmt.Println(m)
+	delete(m, "James")
+	fmt.Println(m)
+
+	delete(m, "Ian")
+	fmt.Println(m)
+
+	fmt.Println(m["Miss MP"])
+	fmt.Println(m["Ian"])
+
+	if v, ok := m["Miss MP"]; ok {
+		fmt.Println("value", v)
+		delete(m, "Miss MP")
+
+	}
+	fmt.Println(m)
+
+}
+
+
