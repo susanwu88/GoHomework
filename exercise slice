@@ -104,4 +104,18 @@ func main() {
 
 }
 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	xs1 := []string{"James", "Bond", "Shaken, not stirred"}
+	xs2 := []string{"Miss", "Moneypenny", "Helloooo, James"}
+
+	fmt.Println(xs1)
+	fmt.Println(xs2)
+}
+
 
