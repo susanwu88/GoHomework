@@ -75,7 +75,7 @@ func main() {
 }
 
 
-//Anonymous struct, no defined type
+//Anonymous struct, not associated with an indentifier such as type
 
 package main
 
