@@ -1,2 +1,20 @@
 //Syntax
 //func (receiver) identifier(parameteters) (returns) {code}
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+
+	foo()
+}
+
+//func (r receiver) identifier(parameters) return(s)) {code}
+
+func foo() {
+	fmt.Println("Hello from foo")
+
+}
