@@ -98,6 +98,6 @@ func sum(s string, x ...int) int {
 
 }
 
-
+//variadic parameter has to be the final parameter, e.g. x ...int
 
 
