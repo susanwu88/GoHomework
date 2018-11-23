@@ -1,0 +1,22 @@
+//defer invoke a function whose execution is deferred to the moment the surrounding funtion returns
+
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	defer foo()
+	bar()
+
+}
+
+func foo() {
+	fmt.Println("foo")
+}
+
+func bar() {
+	fmt.Println("bar")
+}
