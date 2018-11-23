@@ -1,4 +1,6 @@
 // a method is nothing more than a FUNC attached to a TYPE
+// TYPE is person
+// FUNC is speak
 
 package main
 
