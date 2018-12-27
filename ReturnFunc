@@ -41,6 +41,8 @@ func foo() string {
 
 }
 
+//Return a function bar of type int
+
 //func bar() func() int {
 //	return func() int {
 //		return 451
