@@ -34,7 +34,7 @@ func main() {
 	f()
 
 	g := func(x int) {
-		fmt.Println("The year big brother started watching", x)
+		fmt.Println("The year big brother started watching:", x)
 	}
 	g(1984)
 
