@@ -119,7 +119,7 @@ func main() {
 	fmt.Println(s1)
 	x := bar()
 
-	fmt.Printf("%T", x)
+	fmt.Printf("%T\n", x)
 	i := x()
 	fmt.Println(i)
 }
