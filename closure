@@ -1,4 +1,5 @@
 //one scope enclosing other scopes
+//variables declared in the outer scope are assessible in inner scopes
 //closure helps us limit the scope of variables 
 
 package main
