@@ -56,3 +56,26 @@ func main() {
 	fmt.Println(a)
 
 }
+
+//Use pointers when 1) you don't want to pass around a lot of data 2) you want to change the data at a location
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	x := 0
+	foo(x)
+	fmt.Println(x)
+}
+
+func foo(y int) {
+	fmt.Println(y)
+	y = 43
+	fmt.Println(y)
+}
+
+
+
