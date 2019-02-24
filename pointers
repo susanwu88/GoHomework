@@ -51,5 +51,8 @@ func main() {
 	//dereference the value
 	fmt.Println(*b) //* gives you the value stored at an address when you have the address
 	fmt.Println(*&a)
+	
+	*b = 45 //* change the value stored in a
+	fmt.Println(a)
 
 }
