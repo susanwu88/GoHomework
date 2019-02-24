@@ -59,6 +59,8 @@ func main() {
 
 //Use pointers when 1) you don't want to pass around a lot of data 2) you want to change the data at a location
 
+//no pointer
+
 package main
 
 import (
@@ -76,6 +78,8 @@ func foo(y int) {
 	y = 43
 	fmt.Println(y)
 }
+
+//pointer
 
 package main
 
