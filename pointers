@@ -25,3 +25,31 @@ func main() {
 
 }
 
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	a := 42
+
+	//value
+	fmt.Println(a)
+
+	//pointer to address
+	fmt.Println(&a)
+
+	//type of value
+	fmt.Printf("%T\n", a)
+
+	//type of address
+	fmt.Printf("%T\n", &a)
+
+	b := &a
+	fmt.Println(b)
+	//dereference the value
+	fmt.Println(*b) //* gives you the value stored at an address when you have the address
+	fmt.Println(*&a)
+
+}
