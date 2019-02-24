@@ -1,0 +1,23 @@
+//All values are stored in memory
+//Every location in memory has an address
+//A pointer is a memory address
+
+package main
+
+import (
+	"fmt"
+)
+
+func main() {
+	a := 42
+
+	//value
+	fmt.Println(a)
+	//address
+	fmt.Println(&a)
+	//type of value
+	fmt.Printf("%T\n", a)
+	//type of address
+	fmt.Printf("%T\n", &a)
+
+}
