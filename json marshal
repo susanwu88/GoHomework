@@ -71,3 +71,9 @@ func main() {
 	fmt.Println(string(bs))
 }
 
+//output of my code
+//[{James Bond 32} {Miss Moneypenny 27}]
+
+//marshal to JSON
+[{"First":"James","Last":"Bond","Age":32},{"First":"Miss","Last":"Moneypenny","Age":27}]
+
