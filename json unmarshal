@@ -15,3 +15,5 @@ func main() {
 	fmt.Printf("%T\n", bs)
 	fmt.Println("Hello, Playground.")
 }
+
+//https://mholt.github.io/json-to-go/
