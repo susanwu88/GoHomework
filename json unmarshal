@@ -1,4 +1,5 @@
 //take JSOn and bring it back to Go by unmarshalling that JSON
+//JSON types - string, int, bol, null
 
 package main
 
