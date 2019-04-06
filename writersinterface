@@ -1,4 +1,7 @@
 //writer's interface from package iopackage main
+//Fprint is file print
+//Pointer to a file of a type: writer
+
 
 import (
 	"fmt"
