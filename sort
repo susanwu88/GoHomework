@@ -42,3 +42,48 @@ func main() {
 	fmt.Println(xs)
 
 }
+
+
+//more sophisticated sort
+
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+type Person struct {
+	Name string
+	Age  int
+}
+
+func (p Person) String() string {
+	return fmt.Sprintf("%s: %d", p.Name, p.Age)
+
+}
+
+// ByAge implments sort.Interface for []Person based on Age field.
+
+type ByAge []Person
+
+func (a ByAge) Len() int           { return len(a) }
+func (a ByAge) Swap(i, j int)      { a[i], a[j] = a[j], a[i] }
+func (a ByAge) Less(i, j int) bool { return a[i].Age < a[j].Age }
+
+func main() {
+	people := []Person{
+		{"Bob", 21},
+		{"John", 42},
+		{"Mike", 18},
+		{"Jenny", 28},
+	}
+	fmt.Println(people) //print the list of people as-is
+	
+	sort.Sort(ByAge(people)) //sort by age, then print the list of people
+	fmt.Println(people) 
+}
+
+
+
+
