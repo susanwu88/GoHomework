@@ -1,0 +1,15 @@
+//writer's interface from package iopackage main
+
+import (
+	"fmt"
+	"io"
+	"os"
+)
+
+func main() {
+	fmt.Println("Hello, playground")
+	fmt.Fprintln(os.Stdout, "Hello, world")
+	io.WriteString(os.Stdout, "Hello, earth")
+}
+
+
