@@ -2,3 +2,4 @@
 //Concurrency is about dealing with a lots of things at once, is a designed pattern, but need multiple cores to run concurrent code
 //Parallelism is about doing lots of things at once
 //concurrent code can run in parallel
+//
