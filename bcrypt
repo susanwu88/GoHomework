@@ -1,0 +1,21 @@
+//bcrypt is a tool to protect user data
+//when using bcrypt, need to implement code from the standard code library, bring in the packages from golang.org/x/crypto/bcrypt
+
+package main
+
+import (
+	"fmt"
+	"golang.org/x/crypto/bcrypt"
+)
+
+func main() {
+	s := `gonoob123`
+	bs, err := bcrypt.GenerateFromPassword([]byte(s), bcrypt.MinCost)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	fmt.Println(s)
+	fmt.Println(bs)
+
+}
