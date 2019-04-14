@@ -36,6 +36,7 @@ func bar() {
 
 //add go in front of the function
 //go routine now 2
+//concurrent code, but not running in parallel, only have 1 CPU
 
 package main
 
