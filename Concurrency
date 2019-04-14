@@ -1,3 +1,4 @@
 //Go is the first language (2007) to take natively advantage of the multiple cores in Intel processors
-//Concurrency is about dealing with a oots of things at once
+//Concurrency is about dealing with a oots of things at once, is a designed pattern
 //Parallelism is about doing lots of things at once
+//concurrent code can run in parallel
