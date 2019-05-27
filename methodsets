@@ -1,4 +1,9 @@
 //A type may have a method set associated with it. (a set of methods)
-// Receivers (t T) Values T and *T
-// Receivers (t *T) Values *T (value needs to be a pointer)
+
 // The method set of a type determines the Interfaces that the type implements 
+
+// A NON-POINTER Receiver works with values that are POINTERS or NON-POINTERS
+// Receivers (t T) Values T and *T
+
+// A POINTER Receiver only works with values that are POINTERS
+// Receivers (t *T) Values *T (value needs to be a pointer)
