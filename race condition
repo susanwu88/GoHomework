@@ -28,6 +28,7 @@ func main() {
 			counter = v
 			wg.Done()
 		}()
+		fmt.Println("Goroutines:", runtime.NumGoroutine())
 	}
 	wg.Wait()
 	fmt.Println("Goroutines:", runtime.NumGoroutine())
