@@ -1,0 +1,1 @@
+// mutex is a mutual exclusion lock. Mutexes allow us to lock our code so that only one goroutine can access that locked chunk at a time.
