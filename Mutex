@@ -1,2 +1,3 @@
 // mutex is a mutual exclusion lock. Mutexes allow us to lock our code so that only one goroutine can access that locked chunk at a time.
 // use mutex to lock down code to prevent race conditions
+//https://github.com/GoesToEleven/golang-web-dev/tree/master/000_temp/52-race-condition/04_mutex
