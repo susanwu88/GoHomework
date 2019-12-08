@@ -1,6 +1,6 @@
 //use package atomic to also prevent race condition
 //https://github.com/GoesToEleven/golang-web-dev/tree/master/000_temp/52-race-condition/05_atomic
-
+//read from counter, write to counter without introducing race conditions
 
 package main
 
