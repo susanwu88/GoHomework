@@ -40,4 +40,4 @@ func main() {
 	fmt.Println("Goroutines:", runtime.NumGoroutine())
 	fmt.Println("count:", counter)
 }
-© 2019 GitHub, Inc.
+
