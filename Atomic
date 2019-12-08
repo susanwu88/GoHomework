@@ -34,3 +34,7 @@ func main() {
 	fmt.Println("Goroutines:", runtime.NumGoroutine())
 	fmt.Println("count:", counter)
 }
+
+
+//check for race conditions
+// go run -race main.go
