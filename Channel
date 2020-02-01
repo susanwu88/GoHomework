@@ -30,3 +30,7 @@ func main() {
 	fmt.Println(<-c)
 
 }
+
+
+//buffered channel
+// c:= make(chan int, 1)
