@@ -1,0 +1,12 @@
+//channels 
+
+//making a channel
+	//c := make(chan int)
+
+//putting values on a channel
+	//c <- 42
+
+//taking values off of a channel
+	//	<-c
+
+//buffered channels
