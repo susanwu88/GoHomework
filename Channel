@@ -10,7 +10,7 @@
 	//	<-c
 
 //buffered channels
-
+// c:= make(chan int, 1)
 //
 
 package main
