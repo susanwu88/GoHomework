@@ -34,3 +34,35 @@ func main() {
 
 //buffered channel
 // c:= make(chan int, 1)
+
+
+//unsuccessful buffer
+// c:= make(chan int, 1)
+// room for 1
+
+
+//package main
+
+//import (
+	"fmt"
+//)
+
+//func main() {
+//	c := make(chan int, 1)
+
+//	go func() {
+
+//		c <- 42
+//		c <- 43
+
+//	}()
+//	fmt.Println(<-c)
+
+//}
+
+//code above doesn't run, room for 1 in channel
+
+
+
+
+
